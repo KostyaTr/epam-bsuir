@@ -1,7 +1,6 @@
 package com.github.KostyaTr.epam.bsuir.dao.config;
 
 import com.mongodb.MongoClient;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
