@@ -1,4 +1,4 @@
-package com.github.KostyaTr.test.repository.professor;
+package com.github.KostyaTr.test.impl;
 
 import com.github.KostyaTr.epam.bsuir.dao.config.DaoConfig;
 import com.github.KostyaTr.epam.bsuir.dao.ProfessorDao;
@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = DaoConfig.class)
-public class ProfessorRepositoryTest {
+public class DefaultProfessorDaoTest {
 
     @Autowired
     ProfessorDao professorDao;
