@@ -4,6 +4,6 @@
 <html>
 <head><title><spring:message code="page.title"/></title></head>
 <body>
-<h1>hello</h1>
+<h1>hello boy</h1>
 </body>
 </html>
