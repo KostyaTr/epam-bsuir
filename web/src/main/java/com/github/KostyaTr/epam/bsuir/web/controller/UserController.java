@@ -14,11 +14,7 @@ public class UserController {
 
     @GetMapping("/departments/itas")
     public String frontPage(){
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         return "frontPage";
     }
 
