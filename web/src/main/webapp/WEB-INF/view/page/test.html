@@ -1,16 +1,11 @@
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
-<html>
-<head><title><spring:message code="page.title"/></title></head>
-<body>
+<img vspace="5" hspace="5" border="0" src="../../../resources/images/itas_logo.jpg" width="140" alt="itas_logo"/>
 <a href="${requestScope['javax.servlet.forward.request_uri']}?locale=ru" style="padding: 5px">RU</a>
 <a href="${requestScope['javax.servlet.forward.request_uri']}?locale=en" style="padding: 5px">EN</a>
 <div class="content_body" style="width: 50%; margin-left: 375px">
     <!--Content-->
     <div class="con">
         <div style="margin:0 0 30px 0;font-size:14px;">
-            <a class="path" href="#" target="_self"><spring:message code="page.path.main"/> </a><span class="path"> В» </span><a class="path" href="#" target="_self">РћР±СЂР°Р·РѕРІР°РЅРёРµ</a><span class="path"> В» </span><a class="path" href="#" target="_self">Р’С‹СЃС€РµРµ</a><span class="path"> В» </span><a class="path" href="#" target="_self">Р¤Р°РєСѓР»СЊС‚РµС‚С‹</a><span class="path"> В» </span><a class="path" href="#" target="_self">Р¤РРўРЈ</a><span class="path"> В» </span><a class="path" href="#" target="_self">РљР°С„РµРґСЂР° РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹С… С‚РµС…РЅРѕР»РѕРіРёР№ Р°РІС‚РѕРјР°С‚РёР·РёСЂРѕРІР°РЅРЅС‹С… СЃРёСЃС‚РµРј</a>
+            <a class="path" href="#" target="_self">Главная</a><span class="path"> » </span><a class="path" href="#" target="_self">Образование</a><span class="path"> » </span><a class="path" href="#" target="_self">Высшее</a><span class="path"> » </span><a class="path" href="#" target="_self">Факультеты</a><span class="path"> » </span><a class="path" href="#" target="_self">ФИТУ</a><span class="path"> » </span><a class="path" href="#" target="_self">Кафедра информационных технологий автоматизированных систем</a>
         </div>
 
 
@@ -21,8 +16,8 @@
                         <tbody><tr valign="top">
                             <td valign="top" style=" width: 12%; ">
                                 <table align="left" border="0" cellspacing="0" cellpadding="0">
-                                    <tbody><tr><td align="center"><img vspace="5" hspace="5" border="0" src="../../../resources/images/itas_logo.jpg" width="140" alt="itas_logo"/>
                                     </td></tr>
+                                    <tbody><tr><td align="center"><img vspace="5" hspace="5" border="0" src="/resources/images/itas_logo.jpg" width="140" alt="itas_logo"/>
                                     </tbody></table>
 
                             </td>
@@ -32,7 +27,7 @@
 
                             </td>
                             <td valign="top" style=" width: 86%; ">
-                                <h1 align="left"><span style="font-size:18pt;color:#00A0E3">РљР°С„РµРґСЂР° РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹С… С‚РµС…РЅРѕР»РѕРіРёР№ <br/> Р°РІС‚РѕРјР°С‚РёР·РёСЂРѕРІР°РЅРЅС‹С… СЃРёСЃС‚РµРј</span></h1>
+                                <h1 align="left"><span style="font-size:18pt;color:#00A0E3">Кафедра информационных технологий <br/> автоматизированных систем</span></h1>
                                 <p align="left">
                                 </p>
 
@@ -96,43 +91,43 @@
                          <tbody><tr valign="top">
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/sostav-kafedry">РЎРѕСЃС‚Р°РІ РєР°С„РµРґСЂС‹</a>
+                                     <a class="rt" href="/ru/kaf-itas/sostav-kafedry">Состав кафедры</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/istoriya-kafedry">РСЃС‚РѕСЂРёСЏ РєР°С„РµРґСЂС‹</a>
+                                     <a class="rt" href="/ru/kaf-itas/istoriya-kafedry">История кафедры</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/uchebnaya-rabota">РЈС‡РµР±РЅР°СЏ СЂР°Р±РѕС‚Р°</a>
+                                     <a class="rt" href="/ru/kaf-itas/uchebnaya-rabota">Учебная работа</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/nauchnaya-rabota">РќР°СѓС‡РЅР°СЏ СЂР°Р±РѕС‚Р°</a>
+                                     <a class="rt" href="/ru/kaf-itas/nauchnaya-rabota">Научная работа</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/informatsionno-vospitatelnaya-rabota">РРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕ-РІРѕСЃРїРёС‚Р°С‚РµР»СЊРЅР°СЏ СЂР°Р±РѕС‚Р°</a>
+                                     <a class="rt" href="/ru/kaf-itas/informatsionno-vospitatelnaya-rabota">Информационно-воспитательная работа</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/grafik-konsultatsiy">Р“СЂР°С„РёРєРё РєРѕРЅСЃСѓР»СЊС‚Р°С†РёР№</a>
+                                     <a class="rt" href="/ru/kaf-itas/grafik-konsultatsiy">Графики консультаций</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/smk">РќРѕСЂРјР°С‚РёРІРЅС‹Рµ РґРѕРєСѓРјРµРЅС‚С‹ Рё РЎРњРљ</a>
+                                     <a class="rt" href="/ru/kaf-itas/smk">Нормативные документы и СМК</a>
 
                                  </div>
                              </td>
@@ -195,43 +190,43 @@
                          <tbody><tr valign="top">
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/abiturientam">РђР±РёС‚СѓСЂРёРµРЅС‚Р°Рј</a>
+                                     <a class="rt" href="/ru/kaf-itas/abiturientam">Абитуриентам</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/olimpiada">РћР»РёРјРїРёР°РґС‹</a>
+                                     <a class="rt" href="/ru/kaf-itas/olimpiada">Олимпиады</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/studentam">РЎС‚СѓРґРµРЅС‚Р°Рј</a>
+                                     <a class="rt" href="/ru/kaf-itas/studentam">Студентам</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/diplomnikam">Р”РёРїР»РѕРјРЅРёРєР°Рј</a>
+                                     <a class="rt" href="/ru/kaf-itas/diplomnikam">Дипломникам</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/magistratura">РњР°РіРёСЃС‚СЂР°С‚СѓСЂР°</a>
+                                     <a class="rt" href="/ru/kaf-itas/magistratura">Магистратура</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/aspirantura">РђСЃРїРёСЂР°РЅС‚СѓСЂР°</a>
+                                     <a class="rt" href="/ru/kaf-itas/aspirantura">Аспирантура</a>
 
                                  </div>
                              </td>
                              <td valign="top" style=" width: 14%; ">
                                  <div align="center">
-                                     <a class="rt" href="/ru/kaf-itas/konferentsii">РљРѕРЅС„РµСЂРµРЅС†РёРё</a>
+                                     <a class="rt" href="/ru/kaf-itas/konferentsii">Конференции</a>
 
                                  </div>
                              </td>
@@ -268,13 +263,13 @@
                                  &nbsp;</td>
                              <td valign="top" style=" width: 96%; ">
                                  <p align="left">
-                                     &nbsp; РљР°С„РµРґСЂР° РёРјРµРµС‚ 50-Р»РµС‚РЅРёР№ РѕРїС‹С‚ РїРѕРґРіРѕС‚РѕРІРєРё РІС‹СЃРѕРєРѕРєРІР°Р»РёС„РёС†РёСЂРѕРІР°РЅРЅС‹С… СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ РІ РѕР±Р»Р°СЃС‚Рё РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹С… С‚РµС…РЅРѕР»РѕРіРёР№ Рё СѓРїСЂР°РІР»РµРЅРёСЏ, РїСЂРѕРІРµРґРµРЅРёСЏ РЅР°СѓС‡РЅС‹С… РёСЃСЃР»РµРґРѕРІР°РЅРёР№ Рё РѕРїС‹С‚РЅРѕ-РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂСЃРєРёС… СЂР°Р±РѕС‚. РЎРІРѕСЋ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊ РєР°С„РµРґСЂР° РЅР°С‡РёРЅР°Р»Р° РІ 1964 Рі. РїРѕРґ РЅР°Р·РІР°РЅРёРµРј <i>РєР°С„РµРґСЂР° СЃРёСЃС‚РµРј Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ</i>. Р’ 1981 Рі. РєР°С„РµРґСЂР° РЎРђРЈ Р±С‹Р»Р° РїРµСЂРµРёРјРµРЅРѕРІР°РЅР° РІ <i>РєР°С„РµРґСЂСѓ Р°РІС‚РѕРјР°С‚РёР·РёСЂРѕРІР°РЅРЅС‹С… СЃРёСЃС‚РµРј СѓРїСЂР°РІР»РµРЅРёСЏ</i>, Р° РІ 1994 Рі. - РІ <i>РєР°С„РµРґСЂСѓ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹С… С‚РµС…РЅРѕР»РѕРіРёР№ Р°РІС‚РѕРјР°С‚РёР·РёСЂРѕРІР°РЅРЅС‹С… СЃРёСЃС‚РµРј</i>.
-                                     <br>&nbsp;   Р’ РЅР°СЃС‚РѕСЏС‰РµРµ РІСЂРµРјСЏ РЅР° РєР°С„РµРґСЂРµ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РѕР±СѓС‡РµРЅРёРµ СЃС‚СѓРґРµРЅС‚РѕРІ  (РІ С‚РѕРј С‡РёСЃР»Рµ РёРЅРѕСЃС‚СЂР°РЅРЅС‹С… РЅР° Р°РЅРіР»РёР№СЃРєРѕРј СЏР·С‹РєРµ) РїРµСЂРІРѕР№ СЃС‚СѓРїРµРЅРё РІС‹СЃС€РµРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РґРЅРµРІРЅРѕР№ Рё РґРёСЃС‚Р°РЅС†РёРѕРЅРЅРѕР№ С„РѕСЂРј РѕР±СѓС‡РµРЅРёСЏ РїРѕ СЃРїРµС†РёР°Р»СЊРЅРѕСЃС‚Рё 1-53 01 02 "<a href="http://abitur.bsuir.by/online/showpage.jsp?PageID=82245&amp;resID=113227&amp;lang=ru&amp;menuItemID=117039" target="_blank">РђРІС‚РѕРјР°С‚РёР·РёСЂРѕРІР°РЅРЅС‹Рµ СЃРёСЃС‚РµРјС‹ РѕР±СЂР°Р±РѕС‚РєРё РёРЅС„РѕСЂРјР°С†РёРё</a>" (РђРЎРћР) СЃРѕ СЃРїРµС†РёР°Р»РёР·Р°С†РёСЏРјРё:
-                                     <b> </b></p><li><b>1-53 01 02 01 "РђРІС‚РѕРјР°С‚РёР·РёСЂРѕРІР°РЅРЅС‹Рµ СЃРёСЃС‚РµРјС‹ РѕР±СЂР°Р±РѕС‚РєРё Рё РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРё"</b></li><b>
-                                 <li>1-53 01 02 06 "РРЅС‚РµСЂРЅРµС‚-С‚РµС…РЅРѕР»РѕРіРёРё"</li></b>
-                                 &nbsp;<br> РћР±СѓС‡РµРЅРёРµ РїРѕ РґР°РЅРЅРѕР№ СЃРїРµС†РёР°Р»СЊРЅРѕСЃС‚Рё РѕР±РµСЃРїРµС‡РёРІР°РµС‚ РїРѕР»СѓС‡РµРЅРёРµ РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅРѕР№ РєРІР°Р»РёС„РёРєР°С†РёРё <b>"РёРЅР¶РµРЅРµСЂ РїРѕ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹Рј С‚РµС…РЅРѕР»РѕРіРёСЏРј"</b>. <br>
+                                     &nbsp; Кафедра имеет 50-летний опыт подготовки высококвалифицированных специалистов в области информационных технологий и управления, проведения научных исследований и опытно-конструкторских работ. Свою деятельность кафедра начинала в 1964 г. под названием <i>кафедра систем автоматического управления</i>. В 1981 г. кафедра САУ была переименована в <i>кафедру автоматизированных систем управления</i>, а в 1994 г. - в <i>кафедру информационных технологий автоматизированных систем</i>.
+                                     <br>&nbsp;   В настоящее время на кафедре осуществляется обучение студентов  (в том числе иностранных на английском языке) первой ступени высшего образования дневной и дистанционной форм обучения по специальности 1-53 01 02 "<a href="http://abitur.bsuir.by/online/showpage.jsp?PageID=82245&amp;resID=113227&amp;lang=ru&amp;menuItemID=117039" target="_blank">Автоматизированные системы обработки информации</a>" (АСОИ) со специализациями:
+                                     <b> </b></p><li><b>1-53 01 02 01 "Автоматизированные системы обработки и отображения информации"</b></li><b>
+                                 <li>1-53 01 02 06 "Интернет-технологии"</li></b>
+                                 &nbsp;<br> Обучение по данной специальности обеспечивает получение профессиональной квалификации <b>"инженер по информационным технологиям"</b>. <br>
 
-                                 <br>&nbsp;  РќР° РєР°С„РµРґСЂРµ С‚Р°РєР¶Рµ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РѕР±СѓС‡РµРЅРёРµ <i>СЃС‚СѓРґРµРЅС‚РѕРІ РІС‚РѕСЂРѕР№ СЃС‚СѓРїРµРЅРё</i> РІС‹СЃС€РµРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РїРѕ СЃРїРµС†РёР°Р»СЊРЅРѕСЃС‚Рё <b>1-40 80 02 "РЎРёСЃС‚РµРјРЅС‹Р№ Р°РЅР°Р»РёР·, СѓРїСЂР°РІР»РµРЅРёРµ Рё РѕР±СЂР°Р±РѕС‚РєР° РёРЅС„РѕСЂРјР°С†РёРё"</b> Рё <i>Р°СЃРїРёСЂР°РЅС‚РѕРІ</i> РїРѕ СЃРїРµС†РёР°Р»СЊРЅРѕСЃС‚Рё <b>05.13.01 "РЎРёСЃС‚РµРјРЅС‹Р№ Р°РЅР°Р»РёР·, СѓРїСЂР°РІР»РµРЅРёРµ Рё РѕР±СЂР°Р±РѕС‚РєР° РёРЅС„РѕСЂРјР°С†РёРё"</b><p></p>
+                                 <br>&nbsp;  На кафедре также осуществляется обучение <i>студентов второй ступени</i> высшего образования по специальности <b>1-40 80 02 "Системный анализ, управление и обработка информации"</b> и <i>аспирантов</i> по специальности <b>05.13.01 "Системный анализ, управление и обработка информации"</b><p></p>
 
                              </td>
                              <td valign="top" style=" width: 2%; ">
@@ -290,7 +285,7 @@
                                  <p align="left">
                                      <br></p>
 
-                                 <h4 align="left"><span style="color: rgb(153, 51, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  РћР‘РЄРЇР’Р›Р•РќРРЇ</span></h4>
+                                 <h4 align="left"><span style="color: rgb(153, 51, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ОБЪЯВЛЕНИЯ</span></h4>
                              </td>
                          </tr>
                          </tbody></table>
@@ -303,7 +298,7 @@
                                  </p>
 
                                  <div align="left">
-                                     <a class="rt" href="/m/12_100229_1_143359.pdf"><h4><div align="left"><strong><u> 56-СЏ РќРђРЈР§РќРђРЇ РљРћРќР¤Р•Р Р•РќР¦РРЇ РђРЎРџРР РђРќРўРћР’, РњРђР“РРЎРўР РђРќРўРћР’ Р РЎРўРЈР”Р•РќРўРћР’ </u></strong><u></u></div></h4></a>
+                                     <a class="rt" href="/m/12_100229_1_143359.pdf"><h4><div align="left"><strong><u> 56-я НАУЧНАЯ КОНФЕРЕНЦИЯ АСПИРАНТОВ, МАГИСТРАНТОВ И СТУДЕНТОВ </u></strong><u></u></div></h4></a>
 
                                  </div>
                                  <p align="left">
@@ -329,7 +324,7 @@
                      <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
                          <tbody><tr valign="top">
                              <td valign="top" style=" width: 100%; ">
-                                 <h4 align="left"><span style="color: rgb(153, 51, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; РќРћР’РћРЎРўР </span></h4>
+                                 <h4 align="left"><span style="color: rgb(153, 51, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; НОВОСТИ </span></h4>
                              </td>
                          </tr>
                          </tbody></table>
@@ -354,18 +349,18 @@
                                  </p><div class="dekanCard" style="margin-bottom:20px;height:200px;">
                                  <div class="dekanPhoto" style="width:200px;"><img src="/m/12_100229_1_87795.jpg" style="width:168px;"></div>
                                  <div class="dekanText" style="width:560px;">
-                                     Р—Р°РІРµРґСѓСЋС‰РёР№ РєР°С„РµРґСЂРѕР№
-                                     <h4>РќРђР’Р РћР¦РљРР™ РђРЅР°С‚РѕР»РёР№ РђР»РµРєСЃР°РЅРґСЂРѕРІРёС‡</h4>
-                                     РєР°РЅРґРёРґР°С‚ С„РёР·РёРєРѕ-РјР°С‚РµРјР°С‚РёС‡РµСЃРєРёС… РЅР°СѓРє, РґРѕС†РµРЅС‚ <br>
-                                     <br>Р Р°Р±РѕС‡РµРµ РјРµСЃС‚Рѕ: 602РІ-5<br>
-                                     Р Р°Р±РѕС‡РёР№ С‚РµР»РµС„РѕРЅ: +375 17 293-84-73<br>
-                                     Р Р°Р±РѕС‡РёР№ РїРѕС‡С‚РѕРІС‹Р№ Р°РґСЂРµСЃ РґР»СЏ РїРµСЂРµРїРёСЃРєРё: 220013, Рі. РњРёРЅСЃРє, СѓР». Рџ. Р‘СЂРѕРІРєРё, 6<br>
+                                     Заведующий кафедрой
+                                     <h4>НАВРОЦКИЙ Анатолий Александрович</h4>
+                                     кандидат физико-математических наук, доцент <br>
+                                     <br>Рабочее место: 602в-5<br>
+                                     Рабочий телефон: +375 17 293-84-73<br>
+                                     Рабочий почтовый адрес для переписки: 220013, г. Минск, ул. П. Бровки, 6<br>
                                      e-mail: <a href="mailto:navrotsky@bsuir.by"> navrotsky@bsuir.by</a><br>
                                  </div>
                              </div><p></p>
 
                                  <p align="left">
-                                     <br><b>РљРѕРЅС‚Р°РєС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ РєР°С„РµРґСЂС‹:</b>
+                                     <br><b>Контактные данные кафедры:</b>
                                  </p><div class="tel_m" style="margin-top:20px;">
                                  <div class="tel_img"><i class="fa fa-phone" aria-hidden="true">&nbsp;</i></div>
                                  <div class="tel_text">+375 17 293-88-23
@@ -373,7 +368,7 @@
                              </div>
                                  <div class="tel_m">
                                      <div class="tel_img"><i class="fa fa-envelope-o" aria-hidden="true">&nbsp;</i></div>
-                                     <div class="tel_text">220013, Рі. РњРёРЅСЃРє, СѓР». Рџ.Р‘СЂРѕРІРєРё, 6, Р°СѓРґ. 602a-5
+                                     <div class="tel_text">220013, г. Минск, ул. П.Бровки, 6, ауд. 602a-5
                                      </div>
                                  </div>
                                  <div class="tel_m">
@@ -392,7 +387,7 @@
                 </td>
             </tr>
             </tbody></table>
-        <div style="padding: 36px 0" class="yashare-auto-init" data-yasharel10n="ru" data-yasharetype="none" data-yasharequickservices="vkontakte,facebook,twitter,odnoklassniki,lj,moikrug,yaru,friendfeed,linkedin,myspace,surfingbird,blogger,moimir,delicious,yazakladki"><span class="b-share"><a rel="nofollow" target="_blank" title="Р’РљРѕРЅС‚Р°РєС‚Рµ" class="b-share__handle b-share__link b-share-btn__vkontakte" href="https://share.yandex.net/go.xml?service=vkontakte&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="vkontakte"><span class="b-share-icon b-share-icon_vkontakte"></span></a><a rel="nofollow" target="_blank" title="Facebook" class="b-share__handle b-share__link b-share-btn__facebook" href="https://share.yandex.net/go.xml?service=facebook&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="facebook"><span class="b-share-icon b-share-icon_facebook"></span></a><a rel="nofollow" target="_blank" title="Twitter" class="b-share__handle b-share__link b-share-btn__twitter" href="https://share.yandex.net/go.xml?service=twitter&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="twitter"><span class="b-share-icon b-share-icon_twitter"></span></a><a rel="nofollow" target="_blank" title="РћРґРЅРѕРєР»Р°СЃСЃРЅРёРєРё" class="b-share__handle b-share__link b-share-btn__odnoklassniki" href="https://share.yandex.net/go.xml?service=odnoklassniki&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="odnoklassniki"><span class="b-share-icon b-share-icon_odnoklassniki"></span></a><a rel="nofollow" target="_blank" title="LiveJournal" class="b-share__handle b-share__link b-share-btn__lj" href="https://share.yandex.net/go.xml?service=lj&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="lj"><span class="b-share-icon b-share-icon_lj"></span></a><a rel="nofollow" target="_blank" title="LinkedIn" class="b-share__handle b-share__link b-share-btn__linkedin" href="https://share.yandex.net/go.xml?service=linkedin&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="linkedin"><span class="b-share-icon b-share-icon_linkedin"></span></a><a rel="nofollow" target="_blank" title="MySpace" class="b-share__handle b-share__link b-share-btn__myspace" href="https://share.yandex.net/go.xml?service=myspace&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="myspace"><span class="b-share-icon b-share-icon_myspace"></span></a><a rel="nofollow" target="_blank" title="Surfingbird" class="b-share__handle b-share__link b-share-btn__surfingbird" href="https://share.yandex.net/go.xml?service=surfingbird&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="surfingbird"><span class="b-share-icon b-share-icon_surfingbird"></span></a><a rel="nofollow" target="_blank" title="Blogger" class="b-share__handle b-share__link b-share-btn__blogger" href="https://share.yandex.net/go.xml?service=blogger&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="blogger"><span class="b-share-icon b-share-icon_blogger"></span></a><a rel="nofollow" target="_blank" title="РњРѕР№ РњРёСЂ" class="b-share__handle b-share__link b-share-btn__moimir" href="https://share.yandex.net/go.xml?service=moimir&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="moimir"><span class="b-share-icon b-share-icon_moimir"></span></a><a rel="nofollow" target="_blank" title="delicious" class="b-share__handle b-share__link b-share-btn__delicious" href="https://share.yandex.net/go.xml?service=delicious&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="delicious"><span class="b-share-icon b-share-icon_delicious"></span></a></span></div>
+        <div style="padding: 36px 0" class="yashare-auto-init" data-yasharel10n="ru" data-yasharetype="none" data-yasharequickservices="vkontakte,facebook,twitter,odnoklassniki,lj,moikrug,yaru,friendfeed,linkedin,myspace,surfingbird,blogger,moimir,delicious,yazakladki"><span class="b-share"><a rel="nofollow" target="_blank" title="ВКонтакте" class="b-share__handle b-share__link b-share-btn__vkontakte" href="https://share.yandex.net/go.xml?service=vkontakte&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="vkontakte"><span class="b-share-icon b-share-icon_vkontakte"></span></a><a rel="nofollow" target="_blank" title="Facebook" class="b-share__handle b-share__link b-share-btn__facebook" href="https://share.yandex.net/go.xml?service=facebook&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="facebook"><span class="b-share-icon b-share-icon_facebook"></span></a><a rel="nofollow" target="_blank" title="Twitter" class="b-share__handle b-share__link b-share-btn__twitter" href="https://share.yandex.net/go.xml?service=twitter&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="twitter"><span class="b-share-icon b-share-icon_twitter"></span></a><a rel="nofollow" target="_blank" title="Одноклассники" class="b-share__handle b-share__link b-share-btn__odnoklassniki" href="https://share.yandex.net/go.xml?service=odnoklassniki&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="odnoklassniki"><span class="b-share-icon b-share-icon_odnoklassniki"></span></a><a rel="nofollow" target="_blank" title="LiveJournal" class="b-share__handle b-share__link b-share-btn__lj" href="https://share.yandex.net/go.xml?service=lj&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="lj"><span class="b-share-icon b-share-icon_lj"></span></a><a rel="nofollow" target="_blank" title="LinkedIn" class="b-share__handle b-share__link b-share-btn__linkedin" href="https://share.yandex.net/go.xml?service=linkedin&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="linkedin"><span class="b-share-icon b-share-icon_linkedin"></span></a><a rel="nofollow" target="_blank" title="MySpace" class="b-share__handle b-share__link b-share-btn__myspace" href="https://share.yandex.net/go.xml?service=myspace&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="myspace"><span class="b-share-icon b-share-icon_myspace"></span></a><a rel="nofollow" target="_blank" title="Surfingbird" class="b-share__handle b-share__link b-share-btn__surfingbird" href="https://share.yandex.net/go.xml?service=surfingbird&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="surfingbird"><span class="b-share-icon b-share-icon_surfingbird"></span></a><a rel="nofollow" target="_blank" title="Blogger" class="b-share__handle b-share__link b-share-btn__blogger" href="https://share.yandex.net/go.xml?service=blogger&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="blogger"><span class="b-share-icon b-share-icon_blogger"></span></a><a rel="nofollow" target="_blank" title="Мой Мир" class="b-share__handle b-share__link b-share-btn__moimir" href="https://share.yandex.net/go.xml?service=moimir&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="moimir"><span class="b-share-icon b-share-icon_moimir"></span></a><a rel="nofollow" target="_blank" title="delicious" class="b-share__handle b-share__link b-share-btn__delicious" href="https://share.yandex.net/go.xml?service=delicious&amp;url=https%3A%2F%2Fwww.bsuir.by%2Fru%2Fkaf-itas&amp;title=%D0%91%D0%93%D0%A3%D0%98%D0%A0%20-%20%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" data-service="delicious"><span class="b-share-icon b-share-icon_delicious"></span></a></span></div>
     </div>
     <div class="clear"></div>
     <!--/Content-->
