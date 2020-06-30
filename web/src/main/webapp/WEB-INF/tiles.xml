@@ -25,5 +25,21 @@
         <put-attribute name="body" value="/WEB-INF/view/page/scientificWork.jspx"/>
     </definition>
 
+    <definition name="infoAndEducWork" extends="default">
+        <put-attribute name="body" value="/WEB-INF/view/page/infoAndEducWork.jspx"/>
+    </definition>
+
+    <definition name="consultationSchedules" extends="default">
+        <put-attribute name="body" value="/WEB-INF/view/page/consultationSchedules.jspx"/>
+    </definition>
+
+    <definition name="regulatoryDocumentsAndQMS" extends="default">
+        <put-attribute name="body" value="/WEB-INF/view/page/regulatoryDocumentsAndQMS.jspx"/>
+    </definition>
+
+    <definition name="entrants" extends="default">
+        <put-attribute name="body" value="/WEB-INF/view/page/entrants.jspx"/>
+    </definition>
+
 </tiles-definitions>
 

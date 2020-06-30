@@ -119,19 +119,19 @@
                             </td>
                             <td valign="top" style=" width: 14%; ">
                                 <div align="center">
-                                    <a class="rt" href="#"><spring:message code="frontPage.informationalAndEducationalWork"/></a>
+                                    <a class="rt" href="${pageContext.request.contextPath}/departments/itas/InformationalAndEducationalWork"><spring:message code="frontPage.informationalAndEducationalWork"/></a>
 
                                 </div>
                             </td>
                             <td valign="top" style=" width: 14%; ">
                                 <div align="center">
-                                    <a class="rt" href="#"><spring:message code="frontPage.consultationSchedules"/></a>
+                                    <a class="rt" href="${pageContext.request.contextPath}/departments/itas/consultationSchedules"><spring:message code="frontPage.consultationSchedules"/></a>
 
                                 </div>
                             </td>
                             <td valign="top" style=" width: 14%; ">
                                 <div align="center">
-                                    <a class="rt" href="#"><spring:message code="frontPage.regulatoryDocumentsAndQMS"/></a>
+                                    <a class="rt" href="${pageContext.request.contextPath}/departments/itas/regulatoryDocumentsAndQMS"><spring:message code="frontPage.regulatoryDocumentsAndQMS"/></a>
 
                                 </div>
                             </td>
@@ -194,7 +194,7 @@
                         <tbody><tr valign="top">
                             <td valign="top" style=" width: 14%; ">
                                 <div align="center">
-                                    <a class="rt" href="#"><spring:message code="frontPage.entrants"/></a>
+                                    <a class="rt" href="${pageContext.request.contextPath}/departments/itas/entrants"><spring:message code="frontPage.entrants"/></a>
 
                                 </div>
                             </td>
