@@ -13,5 +13,17 @@
         <put-attribute name="body" value="/WEB-INF/view/page/frontPage.jspx"/>
     </definition>
 
+    <definition name="deptHistory" extends="default">
+        <put-attribute name="body" value="/WEB-INF/view/page/deptHistory.jspx"/>
+    </definition>
+
+    <definition name="educWork" extends="default">
+        <put-attribute name="body" value="/WEB-INF/view/page/educWork.jspx"/>
+    </definition>
+
+    <definition name="scientificWork" extends="default">
+        <put-attribute name="body" value="/WEB-INF/view/page/scientificWork.jspx"/>
+    </definition>
+
 </tiles-definitions>
 

@@ -1,11 +1,7 @@
 <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0"
           xmlns:spring="http://www.springframework.org/tags">
     <html>
-    <head>
-        <title><spring:message code="frontPage.title"/></title>
-    </head>
-    <body>
-    <jsp:include page="jsp/frontPage.jsp"/>
-    </body>
+    <head><title><spring:message code="educWork.title"/></title></head>
+    <body><jsp:include page="jsp/educWork.jsp"/></body>
     </html>
 </jsp:root>

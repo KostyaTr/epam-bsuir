@@ -2,10 +2,8 @@
           xmlns:spring="http://www.springframework.org/tags">
     <html>
     <head>
-        <title><spring:message code="frontPage.title"/></title>
+        <title><spring:message code="scientificWork.title"/></title>
     </head>
-    <body>
-    <jsp:include page="jsp/frontPage.jsp"/>
-    </body>
+    <body><jsp:include page="jsp/scientificWork.jsp"/></body>
     </html>
 </jsp:root>
