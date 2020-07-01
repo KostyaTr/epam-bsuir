@@ -52,5 +52,10 @@ public class UserController {
         return "entrants";
     }
 
+    @GetMapping("/departments/itas/students")
+    public String students() {
+        return "students";
+    }
+
 
 }

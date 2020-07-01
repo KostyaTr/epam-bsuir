@@ -42,7 +42,7 @@
                         <tbody><tr valign="top">
                             <td valign="top" style=" width: 14%; ">
                                 <table align="center" border="0" cellspacing="0" cellpadding="0">
-                                    <tbody><tr><td align="center"><img vspace="5" hspace="5" border="0" src="${pageContext.request.contextPath}/resources/images/12_100229_1_81166.jpg" height="50"/>
+                                    <tbody><tr><td align="center"><img vspace="5" hspace="5" border="0" src="${pageContext.request.contextPath}/resources/images/12_100229_1_81167.jpg" height="50"/>
                                     </td></tr>
                                     </tbody></table>
 
@@ -95,7 +95,7 @@
                         <tbody><tr valign="top">
                             <td valign="top" style=" width: 14%; ">
                                 <div align="center">
-                                    <a class="rt" href="#"><spring:message code="frontPage.dep.compostion"/></a>
+                                    <a class="rt" href="${pageContext.request.contextPath}/departments/itas/students"><spring:message code="frontPage.students"/></a>
 
                                 </div>
                             </td>
@@ -131,13 +131,13 @@
                             </td>
                             <td valign="top" style=" width: 14%; ">
                                 <div align="center">
-                                    <a class="rt" href="${pageContext.request.contextPath}/departments/itas/regulatoryDocumentsAndQMS"><spring:message code="frontPage.regulatoryDocumentsAndQMS"/></a>
+                                    <a class="rt" href="${pageContext.request.contextPath}/departments/itas/entrants"><spring:message code="frontPage.entrants"/></a>
 
                                 </div>
                             </td>
                         </tr>
                         </tbody></table>
-                    <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
+                   <%-- <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
                         <tbody><tr valign="top">
                             <td valign="top" style=" width: 14%; ">
                                 <table align="center" border="0" cellspacing="0" cellpadding="0">
@@ -235,7 +235,7 @@
                                 </div>
                             </td>
                         </tr>
-                        </tbody></table>
+<%--                        </tbody></table>--%>
                     <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
                         <tbody><tr valign="top">
                             <td valign="top" style=" width: 100%; ">
